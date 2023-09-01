@@ -16,19 +16,21 @@
 </head>
 <body>
 
-<header>
-    <img src="assets/img/mvr.png" alt="logo">
-    <nav>
-        <ul class="navbar-nav ml-auto" id="main-menu">
-            <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
-            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
-            <li class="nav-item"><a class="nav-link" href="#assignments">Assignments</a></li>
-            <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
-            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<div class="header">
+    <header>
+        <img src="assets/img/mvr.png" alt="logo">
+        <nav>
+            <ul class="navbar-nav ml-auto" id="main-menu">
+                <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                <li class="nav-item"><a class="nav-link" href="#assignments">Assignments</a></li>
+                <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+</div>
 
 <!-- Home -->
 <main>
@@ -94,7 +96,7 @@
             </div>
 
         </div>
-        <div>
+        <div class="about-skills">
             <h3>Professional Skills</h3>
             <a href=""><img src="assets/img/icons/icon-java.png" height="150"></a>
             <a href=""><img src="assets/img/icons/icon-mysql.png" height="150"></a>
@@ -113,9 +115,6 @@
             <a href=""><img src="assets/img/icons/icon-photoshop.png" height="150"></a>
             <a href=""><img src="assets/img/icons/icon-figma.png" height="150"></a>
         </div>
-        <p>5+ Years of Experiece</p>
-        <p>100+ Completed Prjects</p>
-        <p>75+ Happy Customers</p>
     </section>
 </main>
 <hr>
@@ -134,11 +133,19 @@
             <img src="assets/img/icons/icon-googledrive.png" height="25" id="project-gd">
             <img src="assets/img/icons/icon-github(red).png" height="27" id="project-gh">
         </div>
-        <div>
-            <h3>Feedbacks</h3><span><img src="assets/img/icons/icon-welcome.png"></span><br>
-            <img src="assets/img/icons/icon-member.png" height="30"><span>Name</span><br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dolor ea itaque saepe
-                voluptas!</p>
+        <div class="feedback">
+            <span>Feedbacks</span><span><img class="project-heart" src="assets/img/icons/icon-welcome.png"></span><br>
+            <div class="comments">
+                <img src="assets/img/icons/icon-member.png" height="30"><span>Name</span><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dolor ea itaque saepe
+                    voluptas!</p>
+            </div>
+            <div class="comments">
+                <img src="assets/img/icons/icon-member.png" height="30"><span>Name</span><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda consectetur dolor ea itaque saepe
+                    voluptas!</p>
+            </div>
+
         </div>
     </section>
 </main>
@@ -188,17 +195,19 @@
 <hr>
 
 <footer>
-    <img src="../img/mvr.png" alt="logo" height="75">
-    <label>Vimukthi Rajapaksha</label>
-    <div>
-        <a href="#home">Home</a>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#assignments">Assignments</a>
-        <a href="#gallery">Gallery</a>
-        <a href="#contact">Contact</a>
+    <div class="footer">
+        <img src="assets/img/mvr.png" alt="logo" height="75">
+        <label>Vimukthi Rajapaksha</label>
+        <div class="footer-nav">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#assignments">Assignments</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <p>Copyright © MVR. All rights reserved.</p>
     </div>
-    <p>Copyright © MVR. All rights reserved.</p>
 </footer>
 
 </body>

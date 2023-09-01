@@ -3,11 +3,18 @@ body{
     color: white;
     overflow-x: hidden;
 }
-
+.header{
+    position: fixed;
+    height: 50px;
+    width: 99vw;
+    background-color: black;
+    z-index: 9999;
+}
 header{
-    position: relative;
+    position: fixed;
     height: 50px;
     padding: 10px;
+    z-index: 9999;
 }
 header > img {
     height: 75px;
@@ -16,7 +23,7 @@ header > img {
     left: 0;
 }
 header > nav {
-    position: absolute;
+    position: fixed;
     right: 40px;
     top: 0;
 }
@@ -144,7 +151,6 @@ header>nav>ul>li>a:hover{
     position: relative;
     width: 100vw;
     height: 1000px;
-    border: 2px solid red;
 }
 .slider{
     position: absolute;
@@ -187,6 +193,10 @@ header>nav>ul>li>a:hover{
 }
 .about-desc>p{
     padding: 20px;
+}
+.about-skills{
+    position: absolute;
+    bottom: 0;
 }
 /*#about>div:first-child{*/
 /*    position: absolute;*/
@@ -252,6 +262,7 @@ header>nav>ul>li>a:hover{
 /* Projects */
 #projects{
     position: relative;
+    height: 500px;
 }
 #projects>div:first-child{
     position: relative;
@@ -299,6 +310,42 @@ header>nav>ul>li>a:hover{
     left: 20px;
     margin: 10px;
 }
+.feedback{
+    left: 30px;
+    position: absolute;
+    bottom: 30px;
+    width: 95vw;
+    height: 200px;
+    padding-left: 20px;
+}
+.feedback>span:first-child{
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+}
+.feedback>span:nth-child(2)>img{
+    position: relative;
+    width: 30px;
+    top: 10px;
+    margin-left: 10px;
+}
+.comments{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+.comments>img{
+    position: relative;
+    top: 10px;
+    margin-right: 10px;
+}
+.comments>span{
+    color: orange;
+    font-weight: bold;
+}
+.comments>p{
+    color: grey;
+}
 /*#projects>div:nth-child(2)>img{*/
 /*    display: block;*/
 /*    position: relative;*/
@@ -306,3 +353,35 @@ header>nav>ul>li>a:hover{
 /*    left: 20px;*/
 /*    margin: 10px;*/
 /*}*/
+
+/* Footer */
+.footer{
+    height: 200px;
+    width: 99vw;
+    background-color: darkred;
+    opacity: 80%;
+}
+.footer>label{
+    position: absolute;
+    right: 20px;
+    margin: 20px;
+    color: orange;
+}
+.footer-nav{
+    position: relative;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: fit-content;
+    height: fit-content;
+}
+.footer-nav>a{
+    text-decoration: none;
+    color: white;
+    margin-right: 20px;
+}
+.footer>p{
+    position: relative;
+    text-align: center;
+    top: 50px;
+}

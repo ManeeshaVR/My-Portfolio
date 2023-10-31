@@ -165,3 +165,6 @@ ScrollReveal({
 });
 
 ScrollReveal().reveal('.about-title1', {delay: 600, origin: 'left'});
+ScrollReveal().reveal('.project-title1', {delay: 600, origin: 'left'});
+ScrollReveal().reveal('.assignment-title1', {delay: 600, origin: 'left'});
+ScrollReveal().reveal('.contact-title1', {delay: 600, origin: 'left'});

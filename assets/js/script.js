@@ -122,6 +122,15 @@ menuBtn.addEventListener('click', () => {
 });
 
 
+//Typing Animation
+var typed2 = new Typed('#type', {
+    strings: ['Vimukthi Rajapaksha', 'UI/UX Engineer', 'Front-end Developer', 'Back-end Developer', 'Full-stack Developer'],
+    typeSpeed: 150,
+    backSpeed: 70,
+    loop: true,
+});
+
+
 //Email
 
 (function(){
@@ -164,7 +173,37 @@ ScrollReveal({
     duration: 1800,
 });
 
-ScrollReveal().reveal('.about-title1', {delay: 600, origin: 'left'});
-ScrollReveal().reveal('.project-title1', {delay: 600, origin: 'left'});
-ScrollReveal().reveal('.assignment-title1', {delay: 600, origin: 'left'});
-ScrollReveal().reveal('.contact-title1', {delay: 600, origin: 'left'});
+
+//Header
+// ScrollReveal().reveal('.header', {delay: 300, origin: ''});
+
+//Home
+ScrollReveal().reveal('.home-me img', {delay: 2750, origin: 'right', interval: 300});
+ScrollReveal().reveal('.home-desc', {delay: 2800, origin: 'left', interval: 100});
+ScrollReveal().reveal('.home-icons a', {delay: 2850, origin: 'left', interval: 500});
+ScrollReveal().reveal('.home-btn a', {delay: 2900, origin: 'left', interval: 300});
+
+//About
+ScrollReveal().reveal('.about-title1', {delay: 500, origin: 'top'});
+ScrollReveal().reveal('.slider', {delay: 550, origin: 'left', interval: 500});
+ScrollReveal().reveal('.about-desc', {delay: 600, origin: 'right', interval: 500});
+ScrollReveal().reveal('.about-details', {delay: 650, origin: 'right', interval: 500});
+ScrollReveal().reveal('.about-skills a', {delay: 750, origin: 'bottom', interval: 500});
+
+//Projects
+ScrollReveal().reveal('.project-title1', {delay: 500, origin: 'top'});
+ScrollReveal().reveal('.main_container div', {delay: 600, origin: 'bottom', interval: 200});
+
+//Assignments
+ScrollReveal().reveal('.assignment-title1', {delay: 500, origin: 'top'});
+ScrollReveal().reveal('.assignment_container .card', {delay: 550, origin: 'bottom', interval: 100});
+
+//Contact
+ScrollReveal().reveal('.contact-title1', {delay: 500, origin: 'top'});
+ScrollReveal().reveal('.login-box div', {delay: 550, origin: 'right', interval: 100});
+ScrollReveal().reveal('.contact-me img', {delay: 550, origin: 'left', interval: 300});
+
+//Footer
+// ScrollReveal().reveal('.footer_col1', {delay: 400, origin: 'bottom'});
+// ScrollReveal().reveal('.footer_col2', {delay: 400, origin: 'bottom'});
+ScrollReveal().reveal('.footer_col1 a', {delay: 500, origin: 'top', interval: 200});

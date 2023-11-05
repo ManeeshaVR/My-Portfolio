@@ -1553,12 +1553,11 @@ footer{
 }
 
 @media (max-width: 415px){
+    .contact-title1{
+        font-size: 40px;
+    }
     .login-box{
-        position: absolute;
-        top: 250px;
         left: 200px;
-        height: fit-content;
-        width: fit-content;
     }
     .contact-me{
         height: 200px;
@@ -1621,6 +1620,10 @@ footer{
         padding-left: 20px;
         font-size: 20px;
     }
+    .login-box{
+        width: 275px;
+        left: 175px;
+    }
 }
 @media  (max-width: 380px){
     .assignment-title1{
@@ -1646,6 +1649,9 @@ footer{
     }
     #contact{
         height: 750px;
+    }
+    .contact-title1{
+        font-size: 35px;
     }
 }
 

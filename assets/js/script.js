@@ -20,7 +20,7 @@ menuBtn.addEventListener('click', () => {
 
 //Typing Animation
 var typed2 = new Typed('#type', {
-    strings: ['Vimukthi Rajapaksha', 'UI/UX Engineer', 'Front-end Developer', 'Back-end Developer', 'Full-stack Developer'],
+    strings: ['Vimukthi Rajapaksha', 'Front-end Developer', 'Back-end Developer', 'Full-stack Developer', 'Mobile App Developer'],
     typeSpeed: 150,
     backSpeed: 70,
     loop: true,
@@ -82,9 +82,9 @@ ScrollReveal().reveal('.about-skills a', {delay: 750, origin: 'bottom', interval
 ScrollReveal().reveal('.project-title1', {delay: 500, origin: 'top'});
 ScrollReveal().reveal('.main_container div', {delay: 600, origin: 'bottom', interval: 150});
 
-//Assignments
-ScrollReveal().reveal('.assignment-title1', {delay: 500, origin: 'top'});
-ScrollReveal().reveal('.assignment_container .card', {delay: 550, origin: 'bottom', interval: 100});
+// //Assignments
+// ScrollReveal().reveal('.assignment-title1', {delay: 500, origin: 'top'});
+// ScrollReveal().reveal('.assignment_container .card', {delay: 550, origin: 'bottom', interval: 100});
 
 //Contact
 ScrollReveal().reveal('.contact-title1', {delay: 500, origin: 'top'});
